@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Project</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+     <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo-section">
+        <h2>AIMCA<br><span>Library</span></h2>
+        <p>By Batch-26</p>
+        <button class="lend-btn">Lend/Return</button>
+      </div>
+      <nav class="nav-icons">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <header class="top-bar box">
+  <div class="top-left">
+    <span class="home-icon">🏠</span>
+    <h1>Dashboard</h1>
+  </div>
+  <p>Thursday | 03:40 pm</p>
+  <div class="top-right-icons">
+    <span class="icon search-icon">🔍</span>
+    <!--<span class="icon bell-icon">🔔</span>
+    <span class="icon profile-icon">👤</span>-->
+  </div>
+</header>
+
+      <!-- Grid Structure -->
+      <section class="main-grid">
+
+        <!-- Left Column -->
+        <div class="left-column">
+          <div class="box">
+            <h3>Books Issued</h3>
+            <table>
+              <thead>
+                <tr><th>Member ID</th><th>Book ID</th><th>Issue Date</th><th>Return Date</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>#542142</td><td>PYT-23-QA</td><td>24-03-2025</td><td>04-04-2025</td></tr>
+                <tr><td>#542142</td><td>PYT-23-QA</td><td>24-03-2025</td><td>04-04-2025</td></tr>
+                <tr><td>#542142</td><td>PYT-23-QA</td><td>24-03-2025</td><td>04-04-2025</td></tr>
+                <tr><td>#542142</td><td>PYT-23-QA</td><td>24-03-2025</td><td>04-04-2025</td></tr>
+                <tr><td>#542142</td><td>PYT-23-QA</td><td>24-03-2025</td><td>04-04-2025</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="box">
+            <h3>Management Issued</h3>
+            <table>
+              <thead>
+                <tr><th>Member ID</th><th>Book ID</th><th>Issued To</th><th>Date</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>#235532</td><td>MGMT-56-OP</td><td>Professor</td><td>01-03-2025</td></tr>
+                <tr><td>#235532</td><td>MGMT-56-OP</td><td>Professor</td><td>01-03-2025</td></tr>
+                <tr><td>#235532</td><td>MGMT-56-OP</td><td>Professor</td><td>01-03-2025</td></tr>
+                <tr><td>#235532</td><td>MGMT-56-OP</td><td>Professor</td><td>01-03-2025</td></tr>
+                <tr><td>#235532</td><td>MGMT-56-OP</td><td>Professor</td><td>01-03-2025</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+          <div class="top-cards">
+            <div class="card">Overdue Returns <span>92</span></div>
+            <div class="card">Available Books <span>5864</span></div>
+            <div class="card">Books Issued <span>3214</span></div>
+          </div>
+
+          <div class="box">
+            <h3>Weekly Book Analytics</h3>
+            <div class="chart-placeholder">[Chart Here]</div>
+            <ul class="legend">
+              <li><span class="color-box color1"></span> 35% Book Issued</li>
+              <li><span class="color-box color2"></span> 73% New Books Arrived</li>
+              <li><span class="color-box color3"></span> 27% Books Over Due</li>
+              <li><span class="color-box color4"></span> 65% Books Sold</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Library Alerts</h3>
+            <table>
+              <thead>
+                <tr><th>Returns</th><th>Membership ID</th><th>Book ID</th><th>Member</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Today</td><td>#542142</td><td>PYT-23-QA</td><td>Student</td></tr>
+                <tr><td>Today</td><td>#542142</td><td>PYT-23-QA</td><td>Student</td></tr>
+                <tr><td>Today</td><td>#542142</td><td>PYT-23-QA</td><td>Student</td></tr>
+                <tr><td>Today</td><td>#542142</td><td>PYT-23-QA</td><td>Student</td></tr>
+                <tr><td>Today</td><td>#542142</td><td>PYT-23-QA</td><td>Student</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
